@@ -1,0 +1,21 @@
+﻿Build started 3/28/2018 6:16:55 PM.
+     1>Project "E:\Box2d\Project1_Box2d_car_simulation\Project1_Box2d_car_simulation\Project1_Box2d_car_simulation.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Code blocks box2d\Box2D-master (1)\Box2D-master\Box2D" /I"E:\Opengl ebooks\softwares\opengl-wrappers\glfw-3.1.2.bin.WIN32\glfw-3.1.2.bin.WIN32\include" /I"E:\Opengl ebooks\softwares\opengl-wrappers\glew-1.12.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\box2d\project1_box2d_car_simulation\project1_box2d_car_simulation\source.cpp(84): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\box2d\project1_box2d_car_simulation\project1_box2d_car_simulation\source.cpp(141): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\box2d\project1_box2d_car_simulation\project1_box2d_car_simulation\source.cpp(150): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\box2d\project1_box2d_car_simulation\project1_box2d_car_simulation\source.cpp(152): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\box2d\project1_box2d_car_simulation\project1_box2d_car_simulation\source.cpp(287): warning C4305: 'argument' : truncation from 'double' to 'float32'
+     1>e:\box2d\project1_box2d_car_simulation\project1_box2d_car_simulation\source.cpp(357): warning C4244: 'argument' : conversion from 'float32' to 'int', possible loss of data
+     1>e:\box2d\project1_box2d_car_simulation\project1_box2d_car_simulation\source.cpp(401): warning C4244: 'argument' : conversion from 'double' to 'float32', possible loss of data
+     1>e:\box2d\project1_box2d_car_simulation\project1_box2d_car_simulation\source.cpp(409): warning C4244: 'argument' : conversion from 'double' to 'float32', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Box2d\Project1_Box2d_car_simulation\Debug\Project1_Box2d_car_simulation.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Code blocks box2d\Box2D-master (1)\Box2D-master\Box2D\lib" /LIBPATH:"E:\Opengl ebooks\softwares\opengl-wrappers\glfw-3.1.2.bin.WIN32\glfw-3.1.2.bin.WIN32\lib-vc2012" /LIBPATH:"E:\Opengl ebooks\softwares\opengl-wrappers\glew-1.12.0\lib\Release\Win32" Opengl32.lib glew32.lib glfw3.lib Box2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Box2d\Project1_Box2d_car_simulation\Debug\Project1_Box2d_car_simulation.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Box2d\Project1_Box2d_car_simulation\Debug\Project1_Box2d_car_simulation.lib" /MACHINE:X86 Debug\Source.obj
+         Project1_Box2d_car_simulation.vcxproj -> E:\Box2d\Project1_Box2d_car_simulation\Debug\Project1_Box2d_car_simulation.exe
+     1>Done Building Project "E:\Box2d\Project1_Box2d_car_simulation\Project1_Box2d_car_simulation\Project1_Box2d_car_simulation.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.96
